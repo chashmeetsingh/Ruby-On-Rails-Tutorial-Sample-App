@@ -25,10 +25,11 @@ source 'https://rubygems.org'
 	end
 	
 	group :test do
-	gem 'minitest-reporters'
-	gem 'mini_backtrace'
-	gem 'guard-minitest'
-	end
+    gem 'minitest-reporters'
+    gem 'mini_backtrace'
+    gem 'guard'
+    gem 'guard-minitest'
+    end
 	
 	group :production do
 	gem 'pg'

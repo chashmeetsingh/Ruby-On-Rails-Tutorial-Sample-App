@@ -52,4 +52,6 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
->>>>>>> 316925f458776a9c66400f8d089e5d11d0a8ffaa
+
+#Ignore Spring files.
+/spring/*.pid
